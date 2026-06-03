@@ -1,39 +1,48 @@
-Fruit Ninja AR
+# Fruit Ninja AR
 
-Overview
+An augmented reality game built in Unity inspired by the classic Fruit Ninja experience. Players slice virtual fruits that spawn in their real environment using AR technology, avoiding bombs while chasing high scores.
 
-Fruit Ninja AR is an immersive augmented reality game that brings the classic slicing gameplay into the real world. Players use their device to slice virtual fruits while avoiding bombs, enhancing their reflexes and coordination in a fun, interactive experience.
+---
 
-Features
+## Features
 
-Augmented Reality Integration: Utilize AR technology to project fruits in the real environment, allowing players to enjoy a unique gaming experience.
+- **AR Integration:** Fruits are projected into the real world via AR, creating an immersive slicing experience
+- **Dynamic Fruit Spawning:** Fruits spawn from below the screen, staying true to the original Fruit Ninja gameplay feel
+- **Scoring System:** Earn points by slicing fruits, with instant score feedback
+- **Simple Navigation:** Home screen with Start, How to Play, and Quit options
+- **Cross-Platform Controls:** Intuitive touch controls for mobile and desktop
 
-Dynamic Fruit Spawning: Fruits spawn from below the screen, similar to the original Fruit Ninja game, providing a familiar gameplay feel.
+---
 
-User-Friendly Interface: A simple home screen with options to start the game, learn how to play, or quit, making it easy for players to navigate.
+## Tech Stack
 
-Scoring System: Players earn points by slicing fruits, adding a competitive element to the game.
+- **Engine:** Unity
+- **Language:** C#
+- **AR:** AR Foundation
+- **Platform:** Android, PC/Desktop
 
-Responsive Controls: Intuitive controls designed for both mobile and desktop platforms, ensuring a smooth gameplay experience.
+---
 
-Technologies Used
+## Getting Started
 
-Unity: The game is developed using Unity, leveraging its powerful features for game development and AR capabilities.
+### Prerequisites
 
-C#: Scripts are written in C# to manage game logic, fruit spawning, and user interactions.
+- Unity (with AR Foundation package installed)
+- Android device with AR support (for mobile builds)
 
-Installation
+### Installation
 
-To play the game, clone or download the repository, open it in Unity, and make sure to have AR Foundation set up in your project.
+1. Clone the repository
+```
+git clone https://github.com/ShaikYaseenBasha578/Fruit-Slicer-AR-Android-
+```
+2. Open the project in Unity
+3. Install AR Foundation via the Package Manager if not already present
+4. Configure AR settings for your target platform
+5. Build and run on your device
 
-Getting Started
+---
 
-1.Clone the Repository: git clone <repository-url>
+## Project Status
 
-2.Open in Unity: Launch Unity and open the project.
-
-3.Build and Run: Ensure the AR settings are configured, then build and run the project on your device.
-
-Contributing
-
-Feel free to contribute by submitting issues or pull requests to enhance the gameplay and features.
+No longer actively maintained — preserved as an early AR game development project.
